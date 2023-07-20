@@ -34,8 +34,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   max-height: 10%;
   min-height: 40px;
   /* background-color: #46594768; */
-  background-color:#a65425c4 ;
-  backdrop-filter: blur(4px);
+  background-color:#a65425c7 ;
+  backdrop-filter: blur(1px);
   color: #FEEBD4;
   display: flex;
   align-items: center;
