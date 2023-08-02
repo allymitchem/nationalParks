@@ -5,7 +5,8 @@ const Footer = () => {
         <div id="footerContainer">
         <div id ="footer">
             <hr class="footer-hr"/>
-            <h2 class="contact"> Contact Us</h2>
+            <h2 class="resourcesTitle"> Resources</h2>
+
         </div>
         </div>
     )
