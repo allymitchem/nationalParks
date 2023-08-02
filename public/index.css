@@ -34,10 +34,11 @@ background-color: #f7f4ed;
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
-  background-color: #46594768;
+background-color: whitesmoke;
+  /* background-color: #46594768; */
   /* background-color:#a65425c7 ; */
   backdrop-filter: blur(1px);
-  color: #FEEBD4;
+  /* color: #FEEBD4; */
   display: flex;
   align-items: center;
 }
@@ -53,8 +54,8 @@ background-color: #f7f4ed;
 }
 
 #navImage {
-  margin-top: 8%;
-  height: 12rem;
+  margin-top: 7%;
+  height: 10rem;
   padding-left:2%;
   padding-right: .5%;
   
@@ -84,19 +85,34 @@ background-color: whitesmoke;
   /* background-color: #f7f4ed; */
   background-color: #3C3939;
   width:100vw;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   
+}
+
+.linkContainer{
+  border-top: 1px solid #f7f4ed;
+  margin-top:4%;
+  margin-left: 10%;
+  width:65%;
 }
 
 #footerImage{
   height:10rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right:4% ;
+  
 }
 
-.footer-hr{
+/* .footer-hr{
   border-top:1px solid #f7f4ed;
  margin-top: 4%;
  margin-right:15%;
  margin-left: 2%;
-}
+} */
 
 .resourcesTitle{
   display:flex;
