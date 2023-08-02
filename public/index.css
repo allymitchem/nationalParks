@@ -87,7 +87,7 @@ background-color: whitesmoke;
   width:100vw;
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   
@@ -96,12 +96,14 @@ background-color: whitesmoke;
 .linkContainer{
   border-top: 1px solid whitesmoke;
   margin-top:4%;
-  /* margin-left: 10%; */
+  /* margin-left: 10%;
+  margin-right:10%; */
   width:50%;
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
-  border:1px solid blue;
+  justify-content: center;
+  align-items: flex-start;
+  /* border:1px solid blue; */
 }
 
 #footerImage{
@@ -120,7 +122,7 @@ background-color: whitesmoke;
   font-size: 1.2rem;
   font-family: 'Barlow', sans-serif;
  color: whitesmoke;
- margin-bottom: 8px;
+ margin-bottom: 0;
  /* text-decoration: underline; */
  font-weight: 600;
 
@@ -128,14 +130,21 @@ background-color: whitesmoke;
 }
 
 .links {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding:10px;
 }
 
 .siteLinks {
   color:whitesmoke;
   text-decoration: none;
   font-family: 'Barlow', sans-serif;
-  font-size: .95rem;
+  font-size: 1rem;
   font-weight: 200;
-
+  margin-top: 5px;
+  text-transform: uppercase;
 }
+
