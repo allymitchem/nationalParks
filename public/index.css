@@ -107,10 +107,11 @@ background-color: whitesmoke;
 }
 
 #footerImage{
-  height:7rem;
-  width:7rem;
+  height:4rem;
+  /* width:6rem; */
   margin-top: 2%;
   margin-bottom: 1%;
+  /* margin-left:85%; */
 
   
 }
