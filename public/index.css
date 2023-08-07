@@ -180,6 +180,15 @@ background-color: whitesmoke;
   text-transform: uppercase;
 }
 
+.siteLinks:hover{
+filter:brightness(400%) ;
+font-weight: 400;
+}
+
+.siteLinks:active{
+  transform: translate(0, 0.1rem); 
+}
+
 
 /* Home */
 .home{
