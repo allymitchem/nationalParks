@@ -65,6 +65,7 @@ background-color: whitesmoke;
   justify-content: flex-end;
   margin-right:2%;
   font-size: 1.5rem;
+  font-weight: 500;
   margin-top: 6%;
   
 
@@ -79,6 +80,12 @@ background-color: whitesmoke;
   color:#244635;
   text-transform: uppercase;
 }
+
+#homeLink:hover,
+#parksLink:hover {
+  transform: translate(0, 0.1rem);
+}
+
 /* #container {
   align-items: center;
   cursor: default;
@@ -167,3 +174,10 @@ background-color: whitesmoke;
   text-transform: uppercase;
 }
 
+
+/* Home */
+.home{
+  margin-top:5%;
+  display: flex;
+  justify-content: center;
+}
