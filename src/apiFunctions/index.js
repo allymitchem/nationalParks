@@ -1,0 +1,1 @@
+const BASE = "https://developer.nps.gov/api/v1/parks?limit=600&api_key=MBgtPdBo8LmOB5HGbLZZjRqMUR9oQjfaTFBRCkc2";
