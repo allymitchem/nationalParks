@@ -196,3 +196,10 @@ font-weight: 400;
   display: flex;
   justify-content: center;
 }
+
+/* Parks */
+.parks{
+  margin-top:5%;
+  display: flex;
+  justify-content: center;
+}
