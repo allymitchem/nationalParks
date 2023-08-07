@@ -83,8 +83,14 @@ background-color: whitesmoke;
 
 #homeLink:hover,
 #parksLink:hover {
+ filter: brightness(200%);
+}
+
+#homeLink:active,
+#parksLink:active {
   transform: translate(0, 0.1rem);
 }
+
 
 /* #container {
   align-items: center;
