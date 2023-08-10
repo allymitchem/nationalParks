@@ -203,3 +203,31 @@ font-weight: 400;
   display: flex;
   justify-content: center;
 }
+
+/* Park List */
+.parkList{
+  margin-top: 5%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Barlow', sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.list{
+ font-weight: 200;
+ overflow-y: scroll;
+}
+
+/* Park Detail */
+.parkDetail{
+  margin-top: 10%;
+  margin-right:10%;
+  margin-left: 10%;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
