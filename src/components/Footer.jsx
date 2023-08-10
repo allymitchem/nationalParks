@@ -5,18 +5,18 @@ const Footer = () => {
         <div id="footerContainer">
         <div id ="footer">
             {/* <hr class="footer-hr"/> */}
-            <div class="linkContainer">
+            <div className="linkContainer">
             {/* <h2 class="resourcesTitle">RESOURCES</h2> */}
-            <div class="links">
-                <h2 class="resourcesTitle">LINKS</h2>
-                <a class="siteLinks" href="https://www.nps.gov/subjects/developer/index.htm"  target="_blank">Developer Resources Home</a>
-                <a class="siteLinks" href="https://www.nps.gov/subjects/developer/api-documentation.htm#/activities/getActivities"  target="_blank">API Documentation</a>
-                <a  class="siteLinks" href="https://github.com/allymitchem" target ="_blank">Github</a>
+            <div className="links">
+                <h2 className="resourcesTitle">LINKS</h2>
+                <a className="siteLinks" href="https://www.nps.gov/subjects/developer/index.htm"  target="_blank">Developer Resources Home</a>
+                <a className="siteLinks" href="https://www.nps.gov/subjects/developer/api-documentation.htm#/activities/getActivities"  target="_blank">API Documentation</a>
+                <a  className="siteLinks" href="https://github.com/allymitchem" target ="_blank">Github</a>
             </div>
-            <div class="links">
-            <h2 class="resourcesTitle">CONTACT US</h2>
-            <a class="siteLinks" href="mailto:allysonmitchem@gmail.com" target ="_blank">Email</a>
-            <a class="siteLinks" href="https://www.linkedin.com/in/allysonmitchem/" target ="_blank">LinkedIn</a>
+            <div className="links">
+            <h2 className="resourcesTitle">CONTACT US</h2>
+            <a className="siteLinks" href="mailto:allysonmitchem@gmail.com" target ="_blank">Email</a>
+            <a className="siteLinks" href="https://www.linkedin.com/in/allysonmitchem/" target ="_blank">LinkedIn</a>
   
            </div>
             </div>

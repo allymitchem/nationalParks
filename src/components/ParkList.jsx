@@ -7,7 +7,7 @@ const ParkList = () => {
    
 
     return (
-        <div class="parkList">
+        <div className="parkList">
             <h3>Park List</h3>
         </div>
     )
