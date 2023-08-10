@@ -15,17 +15,17 @@ export async function getParkData(parkCode){
     }
 }
 
-async function testParkData(){
-    const parkCode = "chat"
-    const apiResponse = await getParkData(parkCode)
+// async function testParkData(){
+//     const parkCode = "chat"
+//     const apiResponse = await getParkData(parkCode)
 
-    if (apiResponse && apiResponse.data){
-        const parkData = apiResponse.data[0]
-        console.log("ParkData:", parkData)
-    } else
-    console.log("No park data available.")
-}
-testParkData();
+//     if (apiResponse && apiResponse.data){
+//         const parkData = apiResponse.data[0]
+//         console.log("ParkData:", parkData)
+//     } else
+//     console.log("No park data available.")
+// }
+// testParkData();
 
 
 
