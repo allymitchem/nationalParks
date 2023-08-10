@@ -8,7 +8,6 @@ export async function getParkData(parkCode){
             throw Error("Request failed");
         }
         const data = await response.json();
-        console.log(data)
         return data;
     } catch (error){
         console.error("Error fetching park data:", error)
@@ -16,7 +15,18 @@ export async function getParkData(parkCode){
     }
 }
 
-getParkData("chat")
+async function testParkData(){
+    const parkCode = "chat"
+    const apiResponse = await getParkData(parkCode)
+
+    if (apiResponse && apiResponse.data){
+        const parkData = apiResponse.data[0]
+        console.log("ParkData:", parkData)
+    } else
+    console.log("No park data available.")
+}
+testParkData();
+
 
 
 
