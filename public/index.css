@@ -209,6 +209,16 @@ font-weight: 400;
   margin-top: 5%;
   display:flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Barlow', sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.list{
+ font-weight: 200;
+ overflow-y: scroll;
 }
 
 /* Park Detail */

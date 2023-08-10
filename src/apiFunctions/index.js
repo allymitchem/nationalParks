@@ -3,7 +3,7 @@ const BASE = "https://developer.nps.gov/api/v1/parks";
 
 export async function getAllParksData(){
     try{
-        const response = await fetch(`${BASE}?api_key=${API_KEY}`)
+        const response = await fetch(`${BASE}?limit=600&api_key=${API_KEY}`)
         if (!response.ok){
             throw Error("Request failed.")
         }
