@@ -206,13 +206,27 @@ font-weight: 400;
   align-items: center;
   flex-direction: column;
   font-family: 'Barlow', sans-serif;
-  text-transform: uppercase;
+  
   
 }
 
 .parkListTitle{
   font-weight: 500;
+  font-size: 1.6rem;
   color:#244635;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #244635;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  width:90%;
+}
+
+
+.parkList span {
+  background:whitesmoke;
+  padding: 0 10px;
+
 }
 
 .list{
@@ -222,6 +236,7 @@ font-weight: 400;
 .listedPark{
   color:#244635;
   font-weight: 400;
+  font-size: 1.25rem;
 }
 
 /* Park Detail */

@@ -18,7 +18,7 @@ const ParkList = () => {
 
     return (
         <div className="parkList">
-            <h3 className="parkListTitle">Park List</h3>
+            <h3 className="parkListTitle"><span>Park List</span></h3>
             <div className="list">
             {parksData ? (
                 parksData.map((park)=> (
