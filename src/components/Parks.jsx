@@ -1,11 +1,11 @@
 import React from "react"
-
+import ParkList from "./ParkList";
 const Parks = () => {
 
     
     return (
         <div className="parks">
-      <h3>Parks</h3>
+      <ParkList/>
       </div>
     )
 

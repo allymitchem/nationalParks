@@ -9,7 +9,7 @@ const Main = () => {
     <Navbar/>
     <Routes>
       <Route path="parks" element={<Parks/>}/>
-      <Route path="parklist" element={<ParkList/>}/>
+      {/* <Route path="parklist" element={<ParkList/>}/> */}
       <Route path="parks/:parkCode" element={<ParkDetail/>}/>
       <Route path="/" element={<Home/>}/>
     </Routes>

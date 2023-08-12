@@ -5,7 +5,7 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  /* background-color: red; */
+  background-color:whitesmoke;
   /* display:flex; */
    
 } 
@@ -18,7 +18,7 @@ body {
 }
 
 #main {
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
@@ -92,13 +92,7 @@ background-color: whitesmoke;
 }
 
 
-/* #container {
-  align-items: center;
-  cursor: default;
-  display: flex;
-  flex-grow: 2;
-  justify-content: center;
-} */
+
 
 /* Footer */
 #footerContainer {
@@ -212,13 +206,37 @@ font-weight: 400;
   align-items: center;
   flex-direction: column;
   font-family: 'Barlow', sans-serif;
-  text-transform: uppercase;
+  
   
 }
 
+.parkListTitle{
+  font-weight: 500;
+  font-size: 1.6rem;
+  color:#244635;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #244635;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  width:90%;
+}
+
+
+.parkList span {
+  background:whitesmoke;
+  padding: 0 10px;
+
+}
+
 .list{
- font-weight: 200;
  overflow-y: scroll;
+}
+
+.listedPark{
+  color:#244635;
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 /* Park Detail */

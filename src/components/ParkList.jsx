@@ -18,12 +18,12 @@ const ParkList = () => {
 
     return (
         <div className="parkList">
-            <h3>Park List</h3>
+            <h3 className="parkListTitle"><span>Park List</span></h3>
             <div className="list">
             {parksData ? (
                 parksData.map((park)=> (
-                    <div key={park.parkCode}>
-                        <h4>{park.fullName}</h4>
+                    <div  key={park.parkCode}>
+                        <h4 className="listedPark">{park.fullName}</h4>
                      </div>
                 ))) : (
                     <p>Loading park data...</p>
