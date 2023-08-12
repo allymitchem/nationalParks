@@ -34,6 +34,12 @@ export async function getAllParksData(){
     
 
 export async function getParkData(parkCode){
+    const reqObj = {
+        method:'GET',
+        headers: {
+            'Content-Type':'application/json'
+        }
+    }
     try {
         const response = await fetch(`${BASE}?parkCode=${parkCode}&api_key=${API_KEY}`);
         if(!response.ok){

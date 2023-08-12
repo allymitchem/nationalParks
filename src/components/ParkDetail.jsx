@@ -8,24 +8,29 @@ const ParkDetail = () => {
 
     useEffect(()=> {
         async function fetchIndividualData(){
-            const response = await getParkData(parkCode)
+            const getPark = await getParkData(parkCode)
             console.log(parkCode)
-           console.log("API response data.data", response.data.park)
+           console.log("API response data.data", getPark)
             
-            if (response && response.data) {
-               const individualPark = response.data.find(
-                   (park)=> park.parkCode === parkCode
-               )
+            if (getPark) {
+               const individualPark = getPark.data.includes((park) => 
+            //    console.log(park.parkCode) 
+               park.parkCode === parkCode)
+               console.log("Individual park:", individualPark)
+                setParkData(individualPark)
+               
+              
+            //    setParkData(individualPark)
+            }
                    
               
                
-               console.log("Individual park:", individualPark)
-               if (individualPark){
-                setParkData(individualPark)
-                console.log("parkData", parkData )
-               }
+            //    if (individualPark){
+            //     setParkData(individualPark)
+            //     console.log("parkData", parkData )
+            //    }
             }
-        }
+        
         fetchIndividualData()
     }, [parkCode])
     return (
